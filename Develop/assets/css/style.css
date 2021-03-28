@@ -7,12 +7,10 @@
 body {
     background-color: #d9dcd6;
     display:block;
-}
-
-body p {
     font-size: 16px;
 }
 
+/*HEADER AND NAVIGATION STYLES START */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,11 +23,12 @@ header h1 {
     font-size: 48px;
 }
 
+/*Formatting for "seo" section of company name in Header*/
 header span {
     color: #d9dcd6;
 }
 
-nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -50,7 +49,22 @@ header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
+/*HEADER AND NAVIGATION STYLES END*/
 
+/*FOOTER SECTION START*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+/*FOOTER SECTION END*/
+
+/*HERO SECTION START*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,11 +73,13 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
 }
+/*HERO SECTION END*/
 
+/*WHAT-WE-DO SECTION START*/
 .what-we-do-main {
     width: 75%;
     margin-left: 20px;
-    display:inline-block;
+    display: inline-block;
 }
 
 .what-we-do {
@@ -84,6 +100,7 @@ header nav ul li a {
     max-height:200px;
 }
 
+/*Formatting to flip img and text order*/
 #search-engine-optimization img{
     float: left;
     margin-right: 25px;
@@ -98,7 +115,9 @@ header nav ul li a {
     float: left;
     margin-right: 25px;
 }
+/*WHAT-WE-DO SECTION END*/
 
+/*BENEFITS SECTION START*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -126,14 +145,4 @@ header nav ul li a {
     margin: 10px auto;
     max-width: 150px;
 }
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-}
+/*BENEFITS SECTION END*/
